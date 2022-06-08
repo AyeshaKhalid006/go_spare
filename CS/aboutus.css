@@ -1,0 +1,176 @@
+     h2 {
+        font-size: 24px;
+        text-transform: uppercase;
+        color: #303030;
+        font-weight: 600;
+        margin-bottom: 30px;
+      }
+      h4 {
+        font-size: 19px;
+        line-height: 1.375em;
+        color: #383434;
+        font-weight: 400;
+        margin-bottom: 30px;
+      }
+     
+      .container-fluid {
+        padding: 60px 50px;
+      }
+      .bg-grey {
+        background-color: #f6f6f6;
+      }
+      .logo-small {
+        color: #192a56;
+        font-size: 50px;
+      }
+      .logo {
+         color: #192a56;
+        font-size: 200px;
+      }
+      .thumbnail {
+        padding: 0 0 15px 0;
+        border: none;
+        border-radius: 0;
+      }
+      .thumbnail img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
+      }
+      .carousel-control.right,
+      .carousel-control.left {
+        background-image: none;
+         color: #192a56;
+      }
+      .carousel-indicators li {
+         color: #192a56;
+      }
+      .carousel-indicators li.active {
+        color: #192a56;
+      }
+      .item h4 {
+        font-size: 19px;
+        line-height: 1.375em;
+        font-weight: 400;
+        font-style: italic;
+        margin: 70px 0;
+      }
+
+      #background-imgs{
+        background: url('/img/info-background\ -\ Copy.jpg') repeat-y center center/cover;
+        height: 100%;
+        width: 100%;
+        background-attachment: fixed;
+      }
+
+      .item span {
+        font-style: normal;
+      }
+     
+      .slideanim {
+        visibility: hidden;
+      }
+      .slide {
+        animation-name: slide;
+        -webkit-animation-name: slide;
+        animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        visibility: visible;
+
+      }
+      @keyframes slide {
+        0% {
+          opacity: 0;
+          transform: translateY(70%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+      }
+      @-webkit-keyframes slide {
+        0% {
+          opacity: 0;
+          -webkit-transform: translateY(70%);
+        }
+        100% {
+          opacity: 1;
+          -webkit-transform: translateY(0%);
+        }
+      }
+      @media screen and (max-width: 768px) {
+        .col-sm-4 {
+          text-align: center;
+          margin: 25px 0;
+        }
+        .btn-lg {
+          width: 100%;
+          margin-bottom: 35px;
+        }
+      }
+      @media screen and (max-width: 480px) {
+        .logo {
+          font-size: 150px;
+        }
+      }
+p {
+  color: #d6d9e3;
+}
+
+     b.text-white-50 {
+ position: absolute;
+ margin-top: -200px;
+ margin-left: 50px;
+ font-weight: bolder;
+ font-size: 65px;
+ color: lightgray;
+}
+
+ b.text-white {
+ position: absolute;
+ margin-top: -250px;
+ margin-left: 50px;
+ font-weight: bolder;
+ font-size: 25px;
+ 
+}
+
+
+@media (max-width: 760px){
+   b.text-white-50 {
+ position: absolute;
+ margin-top: -50px;
+ margin-left: 50px;
+ font-weight: bolder;
+ font-size: 27px;
+}
+
+b.text-white {
+ position: absolute;
+ margin-top: -70px;
+ margin-left: 43px;
+ font-weight: bolder;
+ font-size: 13px;
+ 
+}
+
+}
+
+@media (max-width:500px){
+    b.text-white-50 {
+ position: absolute;
+ margin-top: -80px;
+ margin-left: 50px;
+ font-weight: bolder;
+ font-size: 27px;
+}
+
+b.text-white {
+ /* position: absolute; */
+ margin-top: -100px;
+ margin-left: 43px;
+ font-weight: bolder;
+ font-size: 13px;
+ 
+}
+}
